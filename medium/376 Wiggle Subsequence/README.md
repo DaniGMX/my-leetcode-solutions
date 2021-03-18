@@ -1,4 +1,4 @@
-# 376. Wiggle Subsequence
+# [376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)
 
 Given an integer array `nums`, return *the length of the longest wiggle sequence*.  
 
