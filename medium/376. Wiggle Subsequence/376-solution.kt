@@ -1,3 +1,5 @@
+package WiggleSubsequence
+
 class Solution {
     fun wiggleMaxLength(nums: IntArray): Int {
         if (nums.size == 0) return 0

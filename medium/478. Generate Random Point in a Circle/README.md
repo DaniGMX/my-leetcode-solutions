@@ -9,7 +9,7 @@ Note:
 1. input and output values are in floating-point.
 2. radius and x-y position of the center of the circle is passed into the class constructor.
 3. a point on the circumference of the circle is considered to be in the circle.
-4. randPoint returns a size 2 array containing x-position and y-position of the random point, in that order. 
+4. `randPoint` returns a size 2 array containing x-position and y-position of the random point, in that order. 
 
 ## Examples
 
