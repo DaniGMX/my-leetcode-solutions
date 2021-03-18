@@ -9,6 +9,8 @@ A **wiggle sequence** is a sequence where the differences between successive num
 
 A **subsequence** is obtained by deleting some elements (eventually, also zero) from the original sequence, leaving the remaining elements in their original order.  
 
+## Examples
+
 **Example 1:**  
 **Input**: `nums = [1,7,4,9,2,5]`  
 **Output:** 6  
@@ -24,11 +26,11 @@ A **subsequence** is obtained by deleting some elements (eventually, also zero) 
 **Output:** 2  
  
 
-**Constraints:**  
+## Constraints:**  
 * `1 <= nums.length <= 1000`
 * `0 <= nums[i] <= 1000`
  
- **My Kotlin Solution:**
+ ## My Kotlin Solution
  ```kotlin
 class Solution {
     fun wiggleMaxLength(nums: IntArray): Int {
@@ -68,4 +70,7 @@ class Solution {
         return count
     }
 }
- ```
+```
+### Submission Details
+**Runtime:** 144 ms, faster than 75.00% of Kotlin online submissions for Wiggle Subsequence.  
+**Memory Usage:** 33.6 MB, less than 100.00% of Kotlin online submissions for Wiggle Subsequence.
