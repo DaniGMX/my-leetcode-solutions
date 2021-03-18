@@ -12,19 +12,25 @@ A **subsequence** is obtained by deleting some elements (eventually, also zero) 
 ## Examples
 
 **Example 1:**  
-**Input**: `nums = [1,7,4,9,2,5]`  
-**Output:** 6  
-**Explanation:** The entire sequence is a wiggle sequence.  
+<pre>
+<b>Input:</b> `nums = [1,7,4,9,2,5]`  
+<b>Output:</b> 6  
+<b>Explanation:</b> The entire sequence is a wiggle sequence.  
+</pre>
 
 **Example 2:**  
-**Input:** `nums = [1,17,5,10,13,15,10,5,16,8]`  
-**Output:** 7  
-**Explanation:** There are several subsequences that achieve this length. One is [1,17,10,13,10,16,8].  
+<pre>
+<b>Input:</b> `nums = [1,17,5,10,13,15,10,5,16,8]`  
+<b>Output:</b> 7  
+<b>Explanation:</b> There are several subsequences that achieve this length. One is [1,17,10,13,10,16,8].  
+</pre>
 
-**Example 3:**  
-**Input:** `nums = [1,2,3,4,5,6,7,8,9]`  
-**Output:** 2  
- 
+**Example 3:** 
+<pre>
+<b>Input:</b> `nums = [1,2,3,4,5,6,7,8,9]`  
+<b>Output:</b> 2  
+</pre>
+
 
 ## Constraints:  
 * `1 <= nums.length <= 1000`
@@ -71,6 +77,7 @@ class Solution {
     }
 }
 ```
-### Submission Details
-**Runtime:** 144 ms, faster than 75.00% of Kotlin online submissions for Wiggle Subsequence.  
-**Memory Usage:** 33.6 MB, less than 100.00% of Kotlin online submissions for Wiggle Subsequence.
+### Best Submission Details
+**Date:** 03/18/2021 - 12:14
+**Runtime:** 144 ms
+**Memory Usage:** 33.3 MB

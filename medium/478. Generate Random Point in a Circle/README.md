@@ -15,23 +15,23 @@ Note:
 
 **Example 1:**  
 <pre>
-<b>Input</b>: ["Solution","randPoint","randPoint","randPoint"]
+<b>Input:</b> ["Solution","randPoint","randPoint","randPoint"]
 [[1,0,0],[],[],[]]
-<b>Output:<b> 6  
-<b>Explanation:<b> The entire sequence is a wiggle sequence.
+<b>Output:</b> 6  
+<b>Explanation:</b> The entire sequence is a wiggle sequence.
 </pre>
 
 **Example 2:**  
 <pre>
-<b>Input:<b> nums = [1,17,5,10,13,15,10,5,16,8]
-<b>Output:<b> 7  
-<b>Explanation:<b> There are several subsequences that achieve this length. One is [1,17,10,13,10,16,8].  
+<b>Input:</b> nums = [1,17,5,10,13,15,10,5,16,8]
+<b>Output:</b> 7  
+<b>Explanation:</b> There are several subsequences that achieve this length. One is [1,17,10,13,10,16,8].  
 </pre>
 
 **Example 3:**  
 <pre>
-<b>Input:<b> `nums = [1,2,3,4,5,6,7,8,9]`
-<b>Output:<b> 2
+<b>Input:</b> `nums = [1,2,3,4,5,6,7,8,9]`
+<b>Output:</b> 2
 </pre>
  
 
@@ -39,10 +39,22 @@ Note:
 * `1 <= nums.length <= 1000`
 * `0 <= nums[i] <= 1000`
  
- ## My Kotlin Solution
- ```kotlin
+## My Kotlin Solution
+```kotlin
+class Solution(val radius: Double, val x_center: Double, val y_center: Double) {
+    
+    fun randPoint(): DoubleArray {
+        val a = Random.nextDouble(Math.PI * 2.0)
+        val l = radius * Math.sqrt(Random.nextDouble())
+        return doubleArrayOf(
+            (l * Math.cos(a)) + x_center,
+            (l * Math.sin(a)) + y_center
+        )
+    }
 
+}
 ```
-### Submission Details
-**Runtime:** 
-**Memory Usage:** 
+### Best Submission Details
+**Date:** 03/18/2021 - 15:48
+**Runtime:** 824 ms
+**Memory Usage:** 64.8 MB
