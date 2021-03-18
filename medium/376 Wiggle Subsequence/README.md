@@ -26,7 +26,7 @@ A **subsequence** is obtained by deleting some elements (eventually, also zero) 
 **Output:** 2  
  
 
-## Constraints:**  
+## Constraints:  
 * `1 <= nums.length <= 1000`
 * `0 <= nums[i] <= 1000`
  
