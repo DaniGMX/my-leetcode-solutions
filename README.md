@@ -1,4 +1,4 @@
-# my-leetcode-solutions
-This repo's purpose is for me to have all my leetcode subscriptions uploaded somewhere else rather than just have them on leetcode.
+# My leetcode Solutions
+This repo's purpose is for me to have all my leetcode subscriptions uploaded somewhere anyone can check easily check rather than just have them on leetcode.
 
-This is my leetcode account [DaniGM](https://leetcode.com/danigm/)
+This is my leetcode account, in case you want to check it out: [DaniGM](https://leetcode.com/danigm/)
