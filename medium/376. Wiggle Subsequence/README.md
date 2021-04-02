@@ -77,7 +77,7 @@ class Solution {
     }
 }
 ```
-### Best Submission Details
+## Best Submission Details
 **Date:** 03/18/2021 - 12:14  
 **Runtime:** 144 ms  
 **Memory Usage:** 33.3 MB  
