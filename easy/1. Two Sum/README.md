@@ -10,8 +10,8 @@ You can return the answer in any order.
 
 **Example 1:**  
 <pre>
-<b>Input:</b> `nums = [2,7,11,15], target = 9`  
-<b>Output:</b> `[0,1]`  
+<b>Input:</b> nums = [2,7,11,15], target = 9
+<b>Output:</b> [0,1]
 <b>Explanation:</b> Because nums[0] + nums[1] == 9, we return [0, 1].  
 </pre>
 
