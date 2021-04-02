@@ -29,9 +29,9 @@ You can return the answer in any order.
 
 
 ## Constraints:  
-* `2 <= nums.length <= 103`
-* `-109 <= nums[i] <= 109`
-* `-109 <= target <= 109`
+* `2 <= nums.length <= 10^3`
+* `-109 <= nums[i] <= 10^9`
+* `-109 <= target <= 10^9`
 * **Only one valid answer exists.**
  
  ## My Kotlin Solution
