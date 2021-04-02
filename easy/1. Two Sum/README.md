@@ -17,14 +17,14 @@ You can return the answer in any order.
 
 **Example 2:**  
 <pre>
-<b>Input:</b> `nums = [3,2,4], target = 6`  
-<b>Output:</b> `[1,2]`  
+<b>Input:</b> nums = [3,2,4], target = 6
+<b>Output:</b> [1,2]
 </pre>
 
 **Example 3:** 
 <pre>
-<b>Input:</b> `nums = [3,3], target = 6`  
-<b>Output:</b> `[0,1]`  
+<b>Input:</b> nums = [3,3], target = 6
+<b>Output:</b> [0,1]
 </pre>
 
 
